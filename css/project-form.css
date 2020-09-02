@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #0f3544;
+    font-variant: small-caps;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-container{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+/* Top Section Alone */
+.top-section{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.top-section h2{
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+.top-section h3{
+    font-weight: lighter;
+}
+
+/************************/
+
+/* Form Styling */
+.form{
+    padding-top: 35px;
+    padding-right: 100px;
+    padding-left: 20px;
+}
+
+.side{
+    float: right;
+    width: 20%;
+    height: 700px;
+}
+
+.side .photo{
+    float: right;
+    height: 150px;
+    width: 130px;
+    background-color: whitesmoke;
+}
+
+.side .upload{
+    position: relative;
+    top: 20px;
+    left: 75px;
+}
+
+.main{
+    display: block;
+    background-color: #ffffff;
+    float: left;
+    justify-content: left;
+    width: 70%;
+    height: auto;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+
+/* All buttons on page */
+.main .sub_clear{
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 30px;
+}
+
+.submit{
+    border-radius: 3px;
+    padding: 5px;
+    position: relative;
+    right: 50px;
+}
+
+.clear{
+    border-radius: 3px;
+    padding: 5px;
+    position: relative;
+    left: 50px;
+}
+
+.side .choose{
+    position: relative;
+    top: 20px;
+    left: 70px;
+}
+/******************************/
+
+.main .text{
+    float: right;
+    margin-right: 300px;
+    text-align: center;
+}
+
+.group{
+    display: block;
+    padding-left: 50px;
+    padding-top: 40px;
+}
+
+.dob{
+    position: relative;
+    top: 15px;
+}
+
+.dob div{
+    position: relative;
+    bottom: 20px;
+    left: 190px;
+}
+
+.gender{
+    position: relative;
+    top: 10px;
+}
+
+.gender_details{
+    display: flex;
+    position: relative;
+    left: 190px;
+    bottom: 20px;
+}
+
+.gender div{
+    padding-right: 40px;
+}
+
+.religion{
+    position: relative;
+    top: 10px;
+}
+
+.religion_details{
+    display: flex;
+    position: relative;
+    left: 190px;
+    bottom: 20px;    
+}
+
+.religion div{
+    padding-right: 20px;
+}
+
+.agree{
+    position: relative;
+    display: inline-block;
+    margin-top: 40px;
+    padding-top: 20px;
+    left: 170px;
+    border-top: 1px solid;
+}
+
+.gototribute{
+    position: relative;
+    top: 100px;
+    left: 80px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+/************************************/

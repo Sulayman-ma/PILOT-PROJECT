@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgb(255, 255, 255);
+}
+
+/* Picture on page */
+.profile{
+    float: right;
+}
+
+/* Header */
+header{
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(190, 127, 43);
+}
+
+header a{
+    text-decoration: none;
+    list-style: none;
+}
+
+header .title{
+    text-transform: uppercase;
+    float: left;
+    margin-top: 15px;
+    margin-left: 70px;
+    font-size: 1.7rem;
+    color: whitesmoke;
+}
+
+/* All content inlcuding main and side navigation content bar */
+.all{
+    margin-bottom: 50px;
+    padding: 25px;
+    padding-top: 70px;
+    height: 1500px;
+}
+
+/* Main Container */
+.all .main-container{
+    order: 2;
+    width: 55%;
+    float: right;
+    margin-top: 20px;
+    margin-right: 130px;
+    margin-bottom: 50px;
+}
+
+.main-container .name{
+    font-family: '';
+    margin-bottom: 30px;
+}
+
+/* Each section containing details */
+.main{
+    padding: 20px;
+    border: 1px solid;
+    margin-top: 15px;
+    overflow: hidden;
+    box-shadow: 2px 3px 3px rgb(102, 102, 102);
+}
+
+#about{
+    height: 200px;
+    
+}
+
+/* The underlined headers on the page */
+.main .des{
+    padding: 8.5px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+/* The additional list items in the career */
+.main .des1{
+    padding: 8.5px;
+}
+
+/* Side container named "Content" */
+.side-container{
+    position: fixed;
+    order: 1;
+    float: left;
+    padding: 0px;
+    width: 10%;
+    height: 180px;
+    letter-spacing: .5;
+    margin-top: 20px;
+    margin-left: 85px;
+    font-family: '';
+}
+
+.side-container a{
+    text-decoration: none;
+    padding: 1px;
+    list-style: square;
+    color: rgb(38, 38, 53);
+}
+
+.python{
+    font-weight: lighter;
+    text-align: center;
+}
+
+.retire{
+    text-align: center;
+}
+
+.gotoform{
+    position: relative;
+    top: 200px;
+}
