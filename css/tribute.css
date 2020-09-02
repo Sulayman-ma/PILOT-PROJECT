@@ -76,7 +76,7 @@ header .title{
 /* The underlined headers on the page */
 .main .des{
     padding: 8.5px;
-    padding-bottom: 20px;
+    padding: bottom 20px;
     text-transform: uppercase;
     text-decoration: underline;
 }
